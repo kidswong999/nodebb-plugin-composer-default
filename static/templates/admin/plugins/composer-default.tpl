@@ -1,4 +1,4 @@
-<form role="form" class="composer-default-settings">
+<form role="form" class="composer-stupid-settings">
 	<div class="row">
 		<div class="col-sm-2 col-xs-12 settings-header">General</div>
 		<div class="col-sm-10 col-xs-12">
