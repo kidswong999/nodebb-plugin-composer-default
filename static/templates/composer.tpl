@@ -59,6 +59,7 @@
 					<!-- END formatting -->
 
 					<!--[if gte IE 9]><!-->
+						<li tabindex="-1" data-format="link" title="链接"><i class="fa fa-link"></i></li>
 						<!-- IF privileges.upload:post:image -->
 						<li class="img-upload-btn hide" data-format="picture" tabindex="-1" title="[[modules:composer.upload-picture]]">
 							<i class="fa fa-picture-o"></i>
