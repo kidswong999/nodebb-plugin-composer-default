@@ -59,7 +59,7 @@
 					<!-- END formatting -->
 
 					<!--[if gte IE 9]><!-->
-						<li tabindex="-1" data-format="code" title="插入代码"><i class="fa fa-code"></i></li>
+						<li tabindex="-1" data-format="code-button" title="插入代码"><i class="fa fa-code"></i></li>
 						<li tabindex="-1" data-format="link" title="插入链接"><i class="fa fa-link"></i></li>
 						<li tabindex="-1" data-format="emoji-add-emoji" title="插入Emoji"><i class="fa fa-smile-o emoji-add-emoji"></i></li>
 						<!-- IF privileges.upload:post:image -->
