@@ -23,28 +23,28 @@ plugin.init = function(data, callback) {
 	var controllers = require('./controllers');
 	SocketPlugins.composer = socketMethods;
 
-	data.router.get('/admin/plugins/composer-default', data.middleware.admin.buildHeader, controllers.renderAdminPage);
-	data.router.get('/api/admin/plugins/composer-default', controllers.renderAdminPage);
+	data.router.get('/admin/plugins/composer-stupid', data.middleware.admin.buildHeader, controllers.renderAdminPage);
+	data.router.get('/api/admin/plugins/composer-stupid', controllers.renderAdminPage);
 
 	callback();
 };
 
 plugin.appendConfig = function(config, callback) {
-	meta.settings.get('composer-default', function(err, settings) {
+	meta.settings.get('composer-stupid', function(err, settings) {
 		if (err) {
 			return callback(null, config);
 		}
 
-		config['composer-default'] = settings;
+		config['composer-stupid'] = settings;
 		callback(null, config);
 	});
 };
 
 plugin.addAdminNavigation = function(header, callback) {
 	header.plugins.push({
-		route: '/plugins/composer-default',
+		route: '/plugins/composer-stupid',
 		icon: 'fa-edit',
-		name: 'Composer (Default)'
+		name: 'Composer (stupid)'
 	});
 
 	callback(null, header);
