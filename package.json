@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-composer-default",
+  "name": "nodebb-plugin-composer-stupid",
   "version": "6.0.17",
-  "description": "Default composer for NodeBB",
+  "description": "stupid composer for NodeBB",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NodeBB/nodebb-plugin-composer-default"
+    "url": "https://github.com/kidswong999/nodebb-plugin-composer-stupid"
   },
   "keywords": [
     "nodebb",
@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NodeBB/nodebb-plugin-composer-default/issues"
+    "url": "https://github.com/kidswong999/nodebb-plugin-composer-stupid/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {
