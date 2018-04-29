@@ -59,7 +59,9 @@
 					<!-- END formatting -->
 
 					<!--[if gte IE 9]><!-->
-						<li tabindex="-1" data-format="link" title="链接"><i class="fa fa-link"></i></li>
+						<li tabindex="-1" data-format="code" title="插入代码"><i class="fa fa-code"></i></li>
+						<li tabindex="-1" data-format="link" title="插入链接"><i class="fa fa-link"></i></li>
+						<li tabindex="-1" data-format="emoji-add-emoji" title="插入Emoji"><i class="fa fa-smile-o emoji-add-emoji"></i></li>
 						<!-- IF privileges.upload:post:image -->
 						<li class="img-upload-btn hide" data-format="picture" tabindex="-1" title="[[modules:composer.upload-picture]]">
 							<i class="fa fa-picture-o"></i>
@@ -70,6 +72,7 @@
 							<i class="fa fa-upload"></i>
 						</li>
 						<!-- ENDIF privileges.upload:post:file -->
+						<li tabindex="-1" data-format="zen" title="无干扰模式"><i class="fa fa-arrows-alt"></i></li>
 					<!--<![endif]-->
 
 					<!-- IF allowTopicsThumbnail -->
