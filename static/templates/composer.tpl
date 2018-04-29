@@ -61,7 +61,7 @@
 					<!--[if gte IE 9]><!-->
 						<!-- IF privileges.upload:post:image -->
 						<li class="img-upload-btn hide" data-format="picture" tabindex="-1" title="[[modules:composer.upload-picture]]">
-							<i class="fa fa-cloud-upload"></i>
+							<i class="fa fa-picture-o"></i>
 						</li>
 						<!-- ENDIF privileges.upload:post:image -->
 						<!-- IF privileges.upload:post:file -->
