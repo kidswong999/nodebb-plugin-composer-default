@@ -1,6 +1,6 @@
-# Default Composer for NodeBB
+# Stupid Composer for NodeBB
 
-This plugin activates the default composer for NodeBB. It is activated by default, but can be swapped out as necessary.
+This composer is easy to use.
 
 ## Screenshots
 
