@@ -133,6 +133,7 @@
 		</div>
 
 		<!-- IF isTopicOrMain -->
+		<!-- IF app.user.isAdmin -->
 		<div class="tag-row">
 			<div class="tags-container">
 				<div class="btn-group dropup <!-- IF !tagWhitelist.length -->hidden<!-- ENDIF !tagWhitelist.length -->" component="composer/tag/dropdown">
@@ -151,7 +152,8 @@
 			</div>
 		</div>
 		<!-- ENDIF isTopicOrMain -->
-
+		<!-- ENDIF app.user.isAdmin -->
+		
 		<!-- IF isTopic -->
 		<ul class="category-selector visible-xs visible-sm">
 
