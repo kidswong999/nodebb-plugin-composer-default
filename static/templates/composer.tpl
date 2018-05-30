@@ -133,7 +133,6 @@
 		</div>
 
 		<!-- IF isTopicOrMain -->
-		<!-- IF app.user.isAdmin -->
 		<div class="tag-row">
 			<div class="tags-container">
 				<div class="btn-group dropup <!-- IF !tagWhitelist.length -->hidden<!-- ENDIF !tagWhitelist.length -->" component="composer/tag/dropdown">
@@ -151,7 +150,6 @@
 				<input class="tags" type="text" class="form-control" placeholder="[[tags:enter_tags_here, {minimumTagLength}, {maximumTagLength}]]" tabindex="5"/>
 			</div>
 		</div>
-		<!-- ENDIF app.user.isAdmin -->
 		<!-- ENDIF isTopicOrMain -->
 
 		<!-- IF isTopic -->
