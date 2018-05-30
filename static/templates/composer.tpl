@@ -151,9 +151,9 @@
 				<input class="tags" type="text" class="form-control" placeholder="[[tags:enter_tags_here, {minimumTagLength}, {maximumTagLength}]]" tabindex="5"/>
 			</div>
 		</div>
-		<!-- ENDIF isTopicOrMain -->
 		<!-- ENDIF app.user.isAdmin -->
-		
+		<!-- ENDIF isTopicOrMain -->
+
 		<!-- IF isTopic -->
 		<ul class="category-selector visible-xs visible-sm">
 
