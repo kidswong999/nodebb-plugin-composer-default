@@ -418,6 +418,7 @@ define('composer', [
 			formatting: composer.formatting,
 			tagWhitelist: ajaxify.data.tagWhitelist,
 			privileges: app.user.privileges,
+			isAdmin: app.user.isAdmin,
 		};
 
 		if (data.mobile) {
