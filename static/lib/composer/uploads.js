@@ -283,7 +283,7 @@ define('composer/uploads', [
 					doneUploading = true;
 					if (uploads && uploads.length) {
 						for (var i=0; i<uploads.length; ++i) {
-							updateTextArea(filenameMapping[i], uploads[i].url);
+							updateTextArea(uploads[i].url, uploads[i].url);
 						}
 					}
 					preview.render(postContainer);
