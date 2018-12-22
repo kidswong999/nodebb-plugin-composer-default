@@ -235,7 +235,7 @@ define('composer/uploads', [
 				return app.alertError('[[error:file-too-big, ' + config.maximumFileSize + ']]');
 			}
 
-			text = insertText(text, textarea.getCursorPosition(), (isImage ? '!' : '') + '[' + uploadingText + '](' + uploadingText + ') ');
+			text = insertText(text, textarea.getCursorPosition(), (isImage ? '!' : '') + '[](' + uploadingText + ') ');
 		}
 		postContainer.find('[data-action="post"]').prop('disabled', true);
 		textarea.val(text);
