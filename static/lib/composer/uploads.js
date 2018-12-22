@@ -235,7 +235,7 @@ define('composer/uploads', [
 				return app.alertError('[[error:file-too-big, ' + config.maximumFileSize + ']]');
 			}
 
-			text = insertText(text, textarea.getCursorPosition(), (isImage ? '!' : '') + '[' + filenameMapping[0] + '](' + uploadingText + ') ');
+			text = insertText(text, textarea.getCursorPosition(), (isImage ? '!' : '') + '[' + filenameMapping[i] + '](' + uploadingText + ') ');
 		}
 		postContainer.find('[data-action="post"]').prop('disabled', true);
 		textarea.val(text);
@@ -283,7 +283,7 @@ define('composer/uploads', [
 					doneUploading = true;
 					if (uploads && uploads.length) {
 						for (var i=0; i<uploads.length; ++i) {
-							updateTextArea('image', uploads[i].url);
+							updateTextArea(filenameMapping[i], uploads[i].url);
 						}
 					}
 					preview.render(postContainer);
